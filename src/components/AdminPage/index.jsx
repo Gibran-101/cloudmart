@@ -274,7 +274,7 @@ const AdminProductsPage = () => {
             onClick={() => setIsModalOpen(true)}
             className="bg-blue-600 text-white px-4 py-2 rounded-md flex items-center hover:bg-blue-700 transition-colors"
           >
-            <Plus size={20} className="mr-2" /> Add Product
+            <Plus size={20} className="mr-2" /> Add Product.
           </button>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
