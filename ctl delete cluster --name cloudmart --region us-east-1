@@ -1,0 +1,113 @@
+{
+    "StackSummaries": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-cloudmart-cluster/7a9a1d20-f323-11ef-9285-1266c1d71c37",
+            "StackName": "eksctl-cloudmart-cluster",
+            "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+            "CreationTime": "2025-02-25T02:51:57.865000+00:00",
+            "DeletionTime": "2025-02-25T02:52:02.518000+00:00",
+            "StackStatus": "ROLLBACK_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-cloudmart-addon-iamserviceaccount-default-cloudmart-pod-execution-role/2b7f90d0-f1c0-11ef-b0d2-0affe4980725",
+            "StackName": "eksctl-cloudmart-addon-iamserviceaccount-default-cloudmart-pod-execution-role",
+            "TemplateDescription": "IAM role for serviceaccount \"default/cloudmart-pod-execution-role\" [created and managed by eksctl]",
+            "CreationTime": "2025-02-23T08:28:33.801000+00:00",
+            "DeletionTime": "2025-02-23T09:24:06.612000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-cloudmart-nodegroup-standard-workers/276b5d90-f1bf-11ef-ae1f-12ca51a75557",
+            "StackName": "eksctl-cloudmart-nodegroup-standard-workers",
+            "TemplateDescription": "EKS Managed Nodes (SSH access: false) [created by eksctl]",
+            "CreationTime": "2025-02-23T08:21:17.458000+00:00",
+            "DeletionTime": "2025-02-23T09:14:33.894000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-cloudmart-addon-vpc-cni/0ef9e380-f1bf-11ef-a53d-0afff608bd7f",
+            "StackName": "eksctl-cloudmart-addon-vpc-cni",
+            "TemplateDescription": "IAM role for \"vpc-cni\" [created and managed by eksctl]",
+            "CreationTime": "2025-02-23T08:20:36.443000+00:00",
+            "DeletionTime": "2025-02-23T09:24:36.992000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-cloudmart-cluster/82a0bd60-f1bd-11ef-a1c8-0affe236f919",
+            "StackName": "eksctl-cloudmart-cluster",
+            "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+            "CreationTime": "2025-02-23T08:09:31.500000+00:00",
+            "DeletionTime": "2025-02-23T09:24:37.138000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-EKS-1-nodegroup-node2/9d87a210-eccc-11ef-bc91-0afffe2c6b9b",
+            "StackName": "eksctl-EKS-1-nodegroup-node2",
+            "TemplateDescription": "EKS Managed Nodes (SSH access: true) [created by eksctl]",
+            "CreationTime": "2025-02-17T01:15:03.264000+00:00",
+            "DeletionTime": "2025-02-17T06:58:36.970000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-EKS-1-cluster/49ee5600-ecca-11ef-a45d-0ed90967629b",
+            "StackName": "eksctl-EKS-1-cluster",
+            "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+            "CreationTime": "2025-02-17T00:58:24.028000+00:00",
+            "DeletionTime": "2025-02-17T07:06:06.145000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-EKS-1-nodegroup-node2/a9b85a30-ebf9-11ef-a02c-12ba6135b409",
+            "StackName": "eksctl-EKS-1-nodegroup-node2",
+            "TemplateDescription": "EKS Managed Nodes (SSH access: true) [created by eksctl]",
+            "CreationTime": "2025-02-16T00:04:59.907000+00:00",
+            "DeletionTime": "2025-02-16T08:17:30.182000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/eksctl-EKS-1-cluster/63a62610-ebf6-11ef-b236-0affccb0cbdb",
+            "StackName": "eksctl-EKS-1-cluster",
+            "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+            "CreationTime": "2025-02-15T23:41:33.864000+00:00",
+            "DeletionTime": "2025-02-16T08:26:38.320000+00:00",
+            "StackStatus": "DELETE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:009160073925:stack/Infra-ECS-Cluster-MyFinCluster-a1992c20/0e910610-a540-11ef-adb1-1252e95b2bed",
+            "StackName": "Infra-ECS-Cluster-MyFinCluster-a1992c20",
+            "TemplateDescription": "The template used to create an ECS Cluster from the ECS Console.",
+            "CreationTime": "2024-11-18T00:00:01.356000+00:00",
+            "StackStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
